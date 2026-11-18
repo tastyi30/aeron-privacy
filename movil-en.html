@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy · AERON Mobile</title><style>
+:root{--bg:#0b0d12;--fg:#e8eaf0;--mut:#9aa3b2;--acc:#5fd3f3;--card:#141822}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8fa;--fg:#14161c;--mut:#5a6270;--acc:#0a7ea4;--card:#fff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}h1{font-size:1.8rem;margin:.2em 0 .6em}h2{font-size:1.15rem;margin:2em 0 .5em;color:var(--acc)}
+p,li{color:var(--fg)}ul{padding-left:1.3em}li{margin:.25em 0}code{background:var(--card);padding:.1em .35em;border-radius:4px;font-size:.92em}
+a{color:var(--acc);word-break:break-word}nav{display:flex;justify-content:flex-end;font-size:.9rem}nav a{color:var(--mut)}
+</style></head><body><main><nav><a href="movil.html">Español</a> · <a href="en.html">Display app</a></nav><h1>AERON Mobile Privacy Policy</h1>
+<p><strong>Effective date:</strong> 18 November 2026.</p>
+<p>AERON Mobile is the phone app that goes with the AERON car display. This policy explains what data it uses, where it is stored and when it leaves the phone.</p>
+<h2>1. The essentials</h2>
+<ul><li>
+<strong>AERON has no server of its own.</strong> We, the AERON developers, do not receive your data.
+</li><li>
+<strong>No advertising and no analytics.</strong> Data is not sold or shared for advertising.
+</li><li>
+Almost everything is stored <strong>only on your phone</strong>. Data only leaves the phone for services that <strong>you turn on or set up</strong>, as explained below.
+</li></ul>
+<h2>2. Data stored on your phone</h2>
+<ul><li>
+<strong>Car data sent by your AERON display</strong> (status, trips and alerts), your "Your car" records, expenses and reminders.
+</li><li>
+<strong>Where you parked</strong>, and the trips you record with the phone's GPS.
+</li><li>
+<strong>Your settings</strong>, and the <strong>keys for services you set up</strong> (encrypted with the Android Keystore).
+</li></ul>
+<h2>3. When data leaves the phone</h2>
+<ul><li>
+<strong>Your AERON display:</strong> if you pair them with the QR code, the phone and the display talk directly over your local Wi-Fi. Nothing goes through any server of ours.
+</li><li>
+<strong>AERON Centro (optional):</strong> if you install it on your computer and connect it, the phone talks to it over your own private network (Tailscale). Centro receives your questions, your trips, the voice you record (for speech recognition) and the link data.
+</li><li>
+<strong>Weather (Open-Meteo):</strong> only if you agree. Your approximate area is sent to <code>api.open-meteo.com</code>: latitude and longitude rounded to about 11 km.
+</li><li>
+<strong>AI assistant:</strong> only if you set up your own key. The recent conversation is sent to the provider you choose (Anthropic, OpenAI or Google Gemini).
+<ul><li>
+Your "Your car", trip and expense data is included <strong>only if you turn on "Use my data in answers"</strong>, which is off by default.
+</li><li>
+Each provider handles the data under its own policy.
+</li></ul>
+</li><li>
+<strong>ElevenLabs voice:</strong> only if you set up your key. What the assistant says is sent as text to ElevenLabs to generate the voice.
+</li><li>
+<strong>Google services on your phone:</strong> Google handles the system speech recognition, the QR code scanner and the system voice, according to your phone's settings.
+</li><li>
+<strong>Google Maps:</strong> when you ask to be guided to your car, the destination is handed to the maps app.
+</li></ul>
+<h2>4. Permissions it asks for, and why</h2>
+<ul><li>
+<strong>Location (while using the app):</strong> where you parked, recording trips with the phone's GPS, and the weather.
+</li><li>
+<strong>Location foreground service:</strong> to keep recording a trip you started while the screen is off. A notification lets you stop it.
+</li><li>
+<strong>Microphone:</strong> voice commands for the assistant.
+</li><li>
+<strong>Notifications:</strong> reminders, trip-finished alerts and summaries.
+</li><li>
+<strong>"AERON connected" service:</strong>
+<ul><li>
+Only runs once AERON Centro is set up. It checks with your computer whether a trip has finished, so it can tell you right away.
+</li><li>
+It does not use GPS. You can turn it off in Settings.
+</li></ul>
+</li><li>
+<strong>Exact alarms and phone start-up:</strong> so reminders go off on time, including after the phone restarts.
+</li></ul>
+<h2>5. Retention and deletion</h2>
+<ul><li>
+Data stays on the phone until you delete it in the app.
+</li><li>
+Uninstalling AERON Mobile deletes all of its data from the phone.
+</li></ul>
+<h2>6. Children</h2>
+<p>AERON Mobile is not directed at children under 13.</p>
+<h2>7. Changes and contact</h2>
+<ul><li>
+If this policy changes, we will update the date at the top.
+</li><li>
+For questions, open an issue at <a href="https://github.com/tastyi30/aeron-privacy/issues">https://github.com/tastyi30/aeron-privacy/issues</a>
+</li></ul></main></body></html>

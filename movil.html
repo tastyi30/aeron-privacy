@@ -1,0 +1,80 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacidad · AERON Mobile</title><style>
+:root{--bg:#0b0d12;--fg:#e8eaf0;--mut:#9aa3b2;--acc:#5fd3f3;--card:#141822}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8fa;--fg:#14161c;--mut:#5a6270;--acc:#0a7ea4;--card:#fff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}h1{font-size:1.8rem;margin:.2em 0 .6em}h2{font-size:1.15rem;margin:2em 0 .5em;color:var(--acc)}
+p,li{color:var(--fg)}ul{padding-left:1.3em}li{margin:.25em 0}code{background:var(--card);padding:.1em .35em;border-radius:4px;font-size:.92em}
+a{color:var(--acc);word-break:break-word}nav{display:flex;justify-content:flex-end;font-size:.9rem}nav a{color:var(--mut)}
+</style></head><body><main><nav><a href="movil-en.html">English</a> · <a href="index.html">App de la pantalla</a></nav><h1>Política de privacidad de AERON Mobile</h1>
+<p><strong>Fecha de entrada en vigor:</strong> 18 de noviembre de 2026.</p>
+<p>AERON Mobile es la app del móvil que acompaña a la pantalla AERON del coche. Esta política explica qué datos usa, dónde se guardan y cuándo salen del móvil.</p>
+<h2>1. Lo esencial</h2>
+<ul><li>
+<strong>AERON no tiene servidor propio.</strong> Los desarrolladores de AERON no recibimos tus datos.
+</li><li>
+<strong>No hay publicidad ni analítica</strong>, ni se venden o comparten datos con fines publicitarios.
+</li><li>
+Casi todo se guarda <strong>solo en tu móvil</strong>. Lo que sale, sale a servicios que <strong>tú activas o configuras</strong>, y se explica abajo.
+</li></ul>
+<h2>2. Datos que se guardan en tu móvil</h2>
+<ul><li>
+<strong>Datos del coche que manda tu pantalla AERON</strong> (estado, viajes y avisos), los registros de «Tu coche», los gastos y los recordatorios.
+</li><li>
+<strong>Dónde aparcaste</strong> y los viajes que grabes con el GPS del móvil.
+</li><li>
+<strong>Tus ajustes</strong> y las <strong>claves de servicios que tú configures</strong> (cifradas con el almacén de claves de Android).
+</li></ul>
+<h2>3. Cuándo salen datos del móvil</h2>
+<ul><li>
+<strong>Tu pantalla AERON:</strong> si la emparejas con el código QR, el móvil y la pantalla se comunican directamente por tu red wifi local, sin pasar por ningún servidor nuestro.
+</li><li>
+<strong>AERON Centro (opcional):</strong> si lo instalas en tu ordenador y lo conectas, el móvil habla con él a través de tu propia red privada (Tailscale). Recibe tus consultas, viajes, la voz que grabes para reconocerla y los datos del enlace.
+</li><li>
+<strong>Tiempo (Open-Meteo):</strong> solo si lo aceptas. Se envía tu zona aproximada (latitud y longitud redondeadas a unos 11 km) a <code>api.open-meteo.com</code>.
+</li><li>
+<strong>Asistente con IA:</strong> solo si configuras tu propia clave. La conversación reciente se envía al proveedor que elijas (Anthropic, OpenAI o Google Gemini).
+<ul><li>
+Tus datos de «Tu coche», viajes y gastos se incluyen <strong>solo si enciendes «Usar mis datos en las respuestas»</strong>, que viene apagado.
+</li><li>
+Cada proveedor los trata según su propia política.
+</li></ul>
+</li><li>
+<strong>Voz con ElevenLabs:</strong> solo si configuras tu clave. El texto que dice el asistente se envía a ElevenLabs para generar la voz.
+</li><li>
+<strong>Servicios de Google del móvil:</strong> el reconocimiento de voz del sistema, el lector de códigos QR y la voz del sistema los gestiona Google, según la configuración de tu móvil.
+</li><li>
+<strong>Google Maps:</strong> al pedir que te lleve al coche, el destino pasa a la app de mapas.
+</li></ul>
+<h2>4. Permisos que pide y para qué</h2>
+<ul><li>
+<strong>Ubicación (mientras usas la app):</strong> dónde aparcaste, grabar viajes con el GPS del móvil y el tiempo.
+</li><li>
+<strong>Servicio de ubicación en primer plano:</strong> seguir grabando un viaje que tú has empezado con la pantalla apagada, con una notificación para terminarlo.
+</li><li>
+<strong>Micrófono:</strong> las órdenes de voz al asistente.
+</li><li>
+<strong>Notificaciones:</strong> los recordatorios, el aviso de viaje terminado y los resúmenes.
+</li><li>
+<strong>Servicio «AERON conectado»:</strong>
+<ul><li>
+Solo con AERON Centro configurado. Consulta a tu ordenador si ha terminado un viaje para avisarte al momento.
+</li><li>
+No usa el GPS. Puedes apagarlo en Ajustes.
+</li></ul>
+</li><li>
+<strong>Alarmas exactas y arranque del móvil:</strong> que los recordatorios suenen a su hora, también después de reiniciar el móvil.
+</li></ul>
+<h2>5. Conservación y borrado</h2>
+<ul><li>
+Los datos se conservan en el móvil hasta que los borras desde la app.
+</li><li>
+Desinstalar AERON Mobile borra todos sus datos del móvil.
+</li></ul>
+<h2>6. Menores</h2>
+<p>AERON Mobile no está dirigida a menores de 13 años.</p>
+<h2>7. Cambios y contacto</h2>
+<ul><li>
+Si esta política cambia, actualizaremos la fecha de arriba.
+</li><li>
+Para cualquier pregunta, abre una incidencia en <a href="https://github.com/tastyi30/aeron-privacy/issues">https://github.com/tastyi30/aeron-privacy/issues</a>
+</li></ul></main></body></html>
