@@ -6,7 +6,7 @@ main{max-width:760px;margin:0 auto;padding:32px 16px 64px}h1{font-size:1.8rem;ma
 p,li{color:var(--fg)}ul{padding-left:1.3em}li{margin:.25em 0}code{background:var(--card);padding:.1em .35em;border-radius:4px;font-size:.92em}
 a{color:var(--acc);word-break:break-word}nav{display:flex;justify-content:flex-end;font-size:.9rem}nav a{color:var(--mut)}
 </style></head><body><main><nav><a href="en.html">English</a> · <a href="movil.html">App del móvil</a></nav><h1>Política de privacidad de AERON</h1>
-<p><strong>Fecha de entrada en vigor:</strong> 18 de noviembre de 2026.</p>
+<p><strong>Fecha de entrada en vigor:</strong> 19 de noviembre de 2026.</p>
 <p>AERON es una pantalla de inicio (launcher) para pantallas de coche Android. Esta política explica qué datos usa la app, dónde se guardan y cuándo salen del aparato.</p>
 <h2>1. Lo esencial</h2>
 <ul><li>
@@ -14,14 +14,14 @@ a{color:var(--acc);word-break:break-word}nav{display:flex;justify-content:flex-e
 </li><li>
 <strong>No hay publicidad ni analítica</strong>, ni se venden o comparten datos con fines publicitarios.
 </li><li>
-Casi todo se guarda <strong>solo en tu aparato</strong>. Lo que sale, sale a servicios que <strong>tú activas o configuras</strong>, y se explica abajo.
+Casi todo se guarda <strong>solo en tu aparato</strong>. Lo que sale, sale a servicios que <strong>tú activas</strong>, y se explica abajo.
 </li><li>
-En <strong>Ajustes → Privacidad</strong> ves qué sabe AERON y controlas el envío al servicio del tiempo. Para borrar todos sus datos: Ajustes de Android → Aplicaciones → AERON → Borrar datos, o desinstalar la app.
+En <strong>Ajustes → Privacidad</strong> ves qué sabe AERON, controlas cada envío y puedes borrar tus viajes, lugares y diagnósticos.
 </li></ul>
 <h2>2. Datos que se guardan en tu aparato</h2>
 <p>Ninguno de estos datos sale del aparato salvo en los casos del apartado 3.</p>
 <ul><li>
-<strong>Datos del coche:</strong> los que lee el adaptador OBD (velocidad, revoluciones, temperaturas, averías, bastidor o VIN y centralitas), y los avisos de la caja negra.
+<strong>Datos del coche:</strong> los que lee el adaptador OBD (velocidad, revoluciones, temperaturas, averías, bastidor o VIN y centralitas) y los avisos de la caja negra.
 </li><li>
 <strong>Viajes y lugares habituales:</strong> distancia, duración y destinos aprendidos, para sugerirte destinos.
 </li><li>
@@ -29,33 +29,29 @@ En <strong>Ajustes → Privacidad</strong> ves qué sabe AERON y controlas el en
 </li><li>
 <strong>Tus ajustes</strong>, la disposición de tu pantalla y los registros que añadas (por ejemplo, en «Tu coche»).
 </li><li>
-<strong>Claves de servicios que tú configures</strong> (por ejemplo, de un proveedor de IA). Se guardan cifradas con el almacén de claves de Android.
+<strong>La conexión con AERON Centro</strong>, si la configuras: dirección y clave de acceso, esta última cifrada con el almacén de claves de Android.
 </li><li>
 <strong>Diagnósticos locales:</strong> informes de fallo que no se envían a ningún sitio.
 </li></ul>
 <h2>3. Cuándo salen datos del aparato</h2>
 <ul><li>
-<strong>Tiempo (Open-Meteo):</strong> solo si lo aceptas. Se envía tu ubicación aproximada (unos 1 km de precisión) a <code>api.open-meteo.com</code> para mostrar el tiempo, cada 15 minutos mientras AERON está abierto. Puedes apagarlo cuando quieras en Ajustes → Privacidad.
+<strong>Tiempo (Open-Meteo):</strong> solo si lo aceptas (viene apagado). Tu ubicación aproximada, con unos 1 km de precisión, se envía a <code>api.open-meteo.com</code> cada 15 minutos mientras AERON está abierto, para mostrar el tiempo.
 </li><li>
-<strong>Asistente con IA:</strong> solo si configuras tu propia clave o servidor. La conversación reciente y, si lo pides, datos del coche o lo que suena se envían al proveedor que elijas (Anthropic, OpenAI o tu propio servidor). Lo trata ese proveedor según su propia política.
-</li><li>
-<strong>Voz con ElevenLabs:</strong> solo si configuras tu clave. Cada frase que dice el asistente se envía como texto a ElevenLabs para generar la voz.
+<strong>AERON Centro (opcional):</strong> si lo instalas en tu ordenador y lo conectas, el asistente con IA y otras funciones hablan con tu ordenador a través de tu red. Si activas «Enviar el resumen de mis viajes al móvil» (viene apagado), se envían a tu ordenador cifras del viaje: distancia, duración, velocidades y temperaturas, sin ruta ni posición. Nada pasa por ningún servidor nuestro.
 </li><li>
 <strong>Reconocimiento de voz:</strong> lo que dices lo procesa el servicio de reconocimiento que tenga configurado Android, que puede tratar el audio fuera del aparato. AERON solo recibe el texto.
 </li><li>
 <strong>Mapas:</strong> la pieza de mapa usa el SDK de Google Maps, sujeto a la política de Google.
 </li><li>
-<strong>Compras:</strong> las gestiona Google Play. AERON solo recibe si tienes la compra activa; no ve tus datos de pago.
+<strong>Compras:</strong> las gestiona Google Play. AERON solo recibe si tienes la compra activa y nunca ve tus datos de pago.
 </li><li>
-<strong>Otras apps:</strong> cuando pides navegar, enviar un mensaje o buscar algo, el destino o el texto pasan a la app que elijas (navegación, mensajería, YouTube…). A partir de ahí los trata esa app.
+<strong>Otras apps:</strong> cuando pides navegar o buscar algo, el destino o el texto pasan a la app que elijas (navegación, YouTube…). A partir de ahí los trata esa app.
 </li></ul>
 <h2>4. Datos entre tus aparatos</h2>
 <ul><li>
-<strong>App AERON del móvil:</strong> si la emparejas con la pantalla, se comunican directamente por tu red wifi local, con un emparejamiento por código QR. Los datos no pasan por ningún servidor nuestro.
+<strong>App AERON del móvil:</strong> si la emparejas con la pantalla, se comunican directamente por tu red wifi local, con un emparejamiento por código QR. No pasan por ningún servidor nuestro.
 </li><li>
 <strong>Modo copiloto:</strong> sirve una página en tu red local que solo puede abrir quien escanea el código de la pantalla.
-</li><li>
-<strong>AERON Centro (opcional):</strong> si lo instalas en tu ordenador, los datos van de la pantalla a tu ordenador. No pasan por ningún servidor nuestro.
 </li></ul>
 <h2>5. Permisos que pide AERON y para qué</h2>
 <ul><li>
@@ -90,9 +86,14 @@ el brillo automático y el modo noche (la salida y la puesta del sol se calculan
 <ul><li>
 Los datos se conservan en el aparato hasta que los borras.
 </li><li>
-Para borrarlos todos: Ajustes de Android → Aplicaciones → AERON → Borrar datos.
+En <strong>Ajustes → Privacidad</strong>:
+<ul><li>
+«Datos de viajes» borra los viajes, los destinos y los lugares habituales aprendidos;
 </li><li>
-Desinstalar AERON borra todos sus datos del aparato.
+«Borrado» borra los diagnósticos.
+</li></ul>
+</li><li>
+Para borrarlo todo: Ajustes de Android → Aplicaciones → AERON → Borrar datos, o desinstalar AERON.
 </li></ul>
 <h2>7. Menores</h2>
 <p>AERON no está dirigida a menores de 13 años.</p>

@@ -6,7 +6,7 @@ main{max-width:760px;margin:0 auto;padding:32px 16px 64px}h1{font-size:1.8rem;ma
 p,li{color:var(--fg)}ul{padding-left:1.3em}li{margin:.25em 0}code{background:var(--card);padding:.1em .35em;border-radius:4px;font-size:.92em}
 a{color:var(--acc);word-break:break-word}nav{display:flex;justify-content:flex-end;font-size:.9rem}nav a{color:var(--mut)}
 </style></head><body><main><nav><a href="index.html">Español</a> · <a href="movil-en.html">Phone app</a></nav><h1>AERON Privacy Policy</h1>
-<p><strong>Effective date:</strong> 18 November 2026.</p>
+<p><strong>Effective date:</strong> 19 November 2026.</p>
 <p>AERON is a home screen (launcher) for Android car displays. This policy explains what data the app uses, where it is stored and when it leaves the device.</p>
 <h2>1. The essentials</h2>
 <ul><li>
@@ -14,12 +14,12 @@ a{color:var(--acc);word-break:break-word}nav{display:flex;justify-content:flex-e
 </li><li>
 <strong>No advertising and no analytics.</strong> Data is not sold or shared for advertising.
 </li><li>
-Almost everything is stored <strong>only on your device</strong>. Data only leaves the device for services that <strong>you turn on or set up</strong>, as explained below.
+Almost everything is stored <strong>only on your device</strong>. Data leaves it only through services that <strong>you turn on</strong>, as explained below.
 </li><li>
-In <strong>Settings → Privacy</strong> you can see what AERON knows and control what is sent to the weather service. To delete all its data: Android Settings → Apps → AERON → Clear data, or uninstall the app.
+In <strong>Settings → Privacy</strong> you can see what AERON knows, control each kind of sending, and delete your trips, places and diagnostics.
 </li></ul>
 <h2>2. Data stored on your device</h2>
-<p>None of this data leaves the device, except in the cases listed in section 3.</p>
+<p>None of this data leaves the device, except in the cases in section 3.</p>
 <ul><li>
 <strong>Car data:</strong> what the OBD adapter reads (speed, RPM, temperatures, fault codes, VIN and control units) and the black-box alerts.
 </li><li>
@@ -29,17 +29,20 @@ In <strong>Settings → Privacy</strong> you can see what AERON knows and contro
 </li><li>
 <strong>Your settings</strong>, your screen layout and any records you add (for example, in "Your car").
 </li><li>
-<strong>Keys for services you set up</strong> (for example, an AI provider). They are encrypted with the Android Keystore.
+<strong>The AERON Centro connection</strong>, if you set it up: its address and access key. The key is encrypted with the Android Keystore.
 </li><li>
 <strong>Local diagnostics:</strong> crash reports that are never sent anywhere.
 </li></ul>
 <h2>3. When data leaves the device</h2>
 <ul><li>
-<strong>Weather (Open-Meteo):</strong> only if you agree. Your approximate location (about 1 km accuracy) is sent to <code>api.open-meteo.com</code> every 15 minutes while AERON is open, to show the weather. You can turn this off at any time in Settings → Privacy.
+<strong>Weather (Open-Meteo):</strong> only if you agree; it is off by default. Your approximate location (about 1 km accuracy) is sent to <code>api.open-meteo.com</code> every 15 minutes while AERON is open, to show the weather.
 </li><li>
-<strong>AI assistant:</strong> only if you set up your own key or server. The recent conversation is sent to the provider you choose (Anthropic, OpenAI or your own server). Car data, or what is playing, is sent only if you ask for it. That provider handles the data under its own policy.
+<strong>AERON Centro (optional):</strong> if you install it on your computer and connect it, the AI assistant and other features talk to your computer over your own network.
+<ul><li>
+If you also turn on "Send my trip summary to my phone" (off by default), trip figures are sent to your computer: distance, duration, speeds and temperatures. No route and no position are sent.
 </li><li>
-<strong>ElevenLabs voice:</strong> only if you set up your key. Each sentence the assistant says is sent as text to ElevenLabs to generate the voice.
+Nothing goes through any server of ours.
+</li></ul>
 </li><li>
 <strong>Speech recognition:</strong> what you say is processed by the speech recognition service set up in Android, which may process the audio off the device. AERON only receives the text.
 </li><li>
@@ -47,15 +50,13 @@ In <strong>Settings → Privacy</strong> you can see what AERON knows and contro
 </li><li>
 <strong>Purchases:</strong> Google Play handles them. AERON only learns whether your purchase is active; it never sees your payment details.
 </li><li>
-<strong>Other apps:</strong> when you ask AERON to navigate, send a message or search, the destination or the text is handed to the app you choose (navigation, messaging, YouTube…). From then on, that app handles it.
+<strong>Other apps:</strong> when you ask AERON to navigate or search, the destination or the text is handed to the app you choose (navigation, YouTube…). From then on, that app handles it.
 </li></ul>
 <h2>4. Data between your devices</h2>
 <ul><li>
-<strong>AERON phone app:</strong> if you pair it with the display, the two talk directly over your local Wi-Fi, after pairing with a QR code. The data does not go through any server of ours.
+<strong>AERON phone app:</strong> if you pair it with the display using a QR code, the two talk directly over your local Wi-Fi. Nothing goes through any server of ours.
 </li><li>
 <strong>Co-pilot mode:</strong> AERON serves a page on your local network. Only someone who scans the code shown on the display can open it.
-</li><li>
-<strong>AERON Centro (optional):</strong> if you install it on your computer, data goes from the display to your computer. It does not go through any server of ours.
 </li></ul>
 <h2>5. Permissions AERON asks for, and why</h2>
 <ul><li>
@@ -72,17 +73,17 @@ automatic brightness and night mode (sunrise and sunset are calculated on the de
 </li><li>
 <strong>Calendar (read-only):</strong> the "Calendar" piece, if you add it to your screen.
 </li><li>
-<strong>Music and audio on the device:</strong> to play your local music.
+<strong>Music and audio on the device:</strong> playing your local music.
 </li><li>
 <strong>Notifications:</strong> the music player, reminders and assistant alerts.
 </li><li>
-<strong>Notification access:</strong> to control the music that is playing and to reopen AERON when the car starts. AERON does not store your notifications.
+<strong>Notification access:</strong> controlling the music that is playing, and reopening AERON when the car starts. AERON does not store your notifications.
 </li><li>
 <strong>Do Not Disturb:</strong> only when you ask for it.
 </li><li>
-<strong>Bluetooth and Wi-Fi:</strong> to connect to the OBD adapter, to Bluetooth lights and to your phone. Bluetooth is never used to work out where you are.
+<strong>Bluetooth and Wi-Fi:</strong> connecting to the OBD adapter, to Bluetooth lights and to your phone. Bluetooth is never used to work out where you are.
 </li><li>
-<strong>Modify system settings:</strong> to change the screen brightness.
+<strong>Modify system settings:</strong> changing the screen brightness.
 </li><li>
 <strong>Uninstall apps:</strong> only when you ask from the app drawer, with Android's confirmation.
 </li></ul>
@@ -90,9 +91,14 @@ automatic brightness and night mode (sunrise and sunset are calculated on the de
 <ul><li>
 Data stays on the device until you delete it.
 </li><li>
-To delete all of it: Android Settings → Apps → AERON → Clear data.
+In <strong>Settings → Privacy</strong>:
+<ul><li>
+"Trip data" deletes trips, destinations and learned frequent places;
 </li><li>
-Uninstalling AERON deletes all of its data from the device.
+"Deletion" deletes diagnostics.
+</li></ul>
+</li><li>
+To delete everything: Android Settings → Apps → AERON → Clear data, or uninstall AERON.
 </li></ul>
 <h2>7. Children</h2>
 <p>AERON is not directed at children under 13.</p>
