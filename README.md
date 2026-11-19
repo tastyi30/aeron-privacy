@@ -4,3 +4,5 @@
 - Display (en): https://tastyi30.github.io/aeron-privacy/en.html
 - Móvil (es): https://tastyi30.github.io/aeron-privacy/movil.html
 - Mobile (en): https://tastyi30.github.io/aeron-privacy/movil-en.html
+- Términos (es): https://tastyi30.github.io/aeron-privacy/terminos.html
+- Terms (en): https://tastyi30.github.io/aeron-privacy/terms.html
